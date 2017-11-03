@@ -1,1 +1,1 @@
-# EPAM_Trining
+# EPAM_Training
