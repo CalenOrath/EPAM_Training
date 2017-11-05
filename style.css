@@ -1,0 +1,58 @@
+body {
+    font-family: sans-serif;
+}
+.title {
+    text-transform: capitalize;
+    font-weight: bold;
+    font-size: 24px;
+}
+.footnote {
+    color: red;
+    border-bottom: 2px solid black;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+    font-size: 14px;
+}
+input, textarea {
+    border-radius: 5px;
+    border: 1px solid black;
+    margin: 5px 0 5px 100px;
+    
+}
+input {
+    padding: 10px 10px;
+    width: 200px;
+}
+input[type="submit"] {
+    width: 100px;
+    background-color: #eee;
+    border: 1px solid grey;
+    left: 70px;
+    margin: 20px 0 5px 70px;
+}
+.field {
+    position: relative;
+}
+label {
+    position: absolute;
+    top: 15px;
+}
+.hint {
+    background-color: indianred;
+    width: 100px;
+    color: white;
+    padding: 5px 20px 5px 10px;
+    display: inline;
+}
+.arrow {
+    width: 0; 
+    height: 0; 
+    border-top: 8px solid transparent;
+    border-bottom: 8px solid transparent; 
+    border-right: 8px solid indianred;
+    margin-left: 50px; 
+    display: inline-block;
+    position: relative;
+    top: 3px;
+        
+}
